@@ -1,3 +1,4 @@
+//You have to replace the submit_url with the address where your backend lies.
 import React, { useState } from 'react';
 import { TextField, Button, Select, MenuItem, FormControl, InputLabel, TextareaAutosize } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
