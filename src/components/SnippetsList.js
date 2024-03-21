@@ -1,3 +1,4 @@
+//You have to replace the snippets_url with the address where your backend lies.
 import React, { useState, useEffect } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 import '../index.css';
