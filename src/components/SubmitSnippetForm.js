@@ -17,7 +17,6 @@ function SubmitSnippetForm(){
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   const submitURL=process.env.REACT_APP_SUBMIT_URL;
-  console.log(submitURL);
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
